@@ -1,8 +1,21 @@
 @import "tailwindcss";
+@import '../styles/boska.css';
+
+@theme {
+  --font-boska: 'Boska-Variable', serif;
+  --font-boska-italic: 'Boska-VariableItalic', serif;
+  --font-gambarino: 'Gambarino-Regular', serif;
+}
+
+* {
+  transition: all 0.2s ease-in-out;
+}
 
 :root {
   --primary: #F8EDE0;
+  --primary-hover: #D9CCC4;
   --secondary: #761010;
+  --secondary-hover: #5A0C0C;
 }
 
 body {

@@ -1,11 +1,11 @@
 import Hero from "@/components/Hero";
-import Menu from "@/components/ui/Menu";
+import Nav from "@/components/ui/Nav";
 
 export default function Home() {
   return (
     <>
-      <Menu />
-      {/* <Hero /> */}
+      <Nav />
+      <Hero />
     </>
   )
 }
