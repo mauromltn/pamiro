@@ -16,9 +16,9 @@ export default function Hero() {
 
       <div className='absolute inset-0 bg-black/50' />
 
-      <section className='absolute bottom-0 w-full px-12 pb-20 flex justify-between items-end  text-[var(--primary)]'>
+      <section className='absolute bottom-0 px-12 pb-20 flex justify-between items-end text-[var(--primary)]'>
 
-        <span className='w-160 text-6xl font-gambarino leading-snug'>Indulge in Premium Cuts & Authentic Flavors</span>
+        <h1 className='w-160 text-6xl font-gambarino leading-snug'>Indulge in Premium Cuts & Authentic Flavors</h1>
 
         <div className='w-1/4'>
           <p className='mb-6 text-[17px]'>From perfectly grilled steaks to slow-roasted meats, we serve you the finest selection of meat dishes prepared with passion.</p>
