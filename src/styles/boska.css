@@ -1,0 +1,56 @@
+/**
+* @license
+*
+* Font Family: Boska
+* Designed by: Barbara Bigosinska
+* URL: https://www.fontshare.com/fonts/boska
+* © 2025 Indian Type Foundry
+*
+* Boska Extralight 
+* Boska ExtralightItalic 
+* Boska Light 
+* Boska LightItalic 
+* Boska Regular 
+* Boska Italic 
+* Boska Medium 
+* Boska MediumItalic 
+* Boska Bold 
+* Boska BoldItalic 
+* Boska Black 
+* Boska BlackItalic 
+* Boska Variable (Variable font)
+* Boska VariableItalic (Variable font)
+
+*
+*/
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 200.0;
+*
+* available axes:
+'wght' (range from 200.0 to 900.0
+*/
+@font-face {
+  font-family: 'Boska-Variable';
+  src: url('/fonts/boska/Boska-Variable.woff2') format('woff2');
+  font-weight: 200 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 200.0;
+*
+* available axes:
+'wght' (range from 200.0 to 900.0
+*/
+@font-face {
+  font-family: 'Boska-VariableItalic';
+  src: url('/fonts/boska/Boska-VariableItalic.woff2') format('woff2');
+  font-weight: 200 900;
+  font-display: swap;
+  font-style: italic;
+}
