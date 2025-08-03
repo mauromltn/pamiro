@@ -6,10 +6,10 @@ export default function Nav() {
           <h1 className="text-3xl font-boska font-bold text-[var(--primary)] tracking-wide">PAMIRÒ</h1>
 
          <nav className='flex justify-end items-center gap-7'>
-            <ul className='flex gap-7 text-[var(--primary)]'>
-               <li className="cursor-pointer hover:text-[var(--primary-hover)]">Menu</li>
-               <li className="cursor-pointer hover:text-[var(--primary-hover)]">About</li>
-               <li className="cursor-pointer hover:text-[var(--primary-hover)]">Contact</li>
+            <ul className='flex gap-7 text-[var(--primary)] *:cursor-pointer *:hover:text-[var(--primary-hover)]'>
+               <li>Menu</li>
+               <li>About</li>
+               <li>Contact</li>
             </ul>
             <Button>Make a Reservation</Button>
          </nav>

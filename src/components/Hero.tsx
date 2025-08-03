@@ -11,11 +11,12 @@ export default function Hero() {
         alt="Restaurant interior"
         fill
         objectFit='cover'
+        className='select-none'
       />
 
       <div className='absolute inset-0 bg-black/50' />
 
-      <section className='absolute bottom-0 w-full  px-12 pb-20 flex justify-between items-end  text-[var(--primary)]'>
+      <section className='absolute bottom-0 w-full px-12 pb-20 flex justify-between items-end  text-[var(--primary)]'>
 
         <span className='w-160 text-6xl font-gambarino leading-snug'>Indulge in Premium Cuts & Authentic Flavors</span>
 
