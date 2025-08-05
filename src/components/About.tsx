@@ -24,7 +24,7 @@ export default function About() {
 
          <section className='col-span-2 content-end ml-30'>
             <p className='text-[17px] mb-12'>
-               At Deliyumety, we believe that great meals start with the finest ingredients. That's why we source only the best
+               At Deliyumety, we believe that great meals start with the finest ingredients. That&apos;s why we source only the best
                cuts from trusted suppliers. Our chefs are experts in crafting mouthwatering dishes that celebrate the art of
                cooking meat. Whether you crave a tender steak or a hearty BBQ, we ensure every bite is a feast for your senses.
             </p>
