@@ -28,7 +28,7 @@ export default function About() {
                cuts from trusted suppliers. Our chefs are experts in crafting mouthwatering dishes that celebrate the art of
                cooking meat. Whether you crave a tender steak or a hearty BBQ, we ensure every bite is a feast for your senses.
             </p>
-            <section className='grid grid-cols-2 justify-between gap-8 [&_div_h3]:font-gambarino [&_div_h3]:text-3xl [&_div_p]:text-[17px]'>
+            <section className='grid grid-cols-2 justify-between gap-8 [&>div>h3]:font-gambarino [&>div>h3]:text-3xl [&>div>p]:text-[17px]'>
                {features.map((feature, index) => (
                   <div key={index} className='w-fit'>
                      <h3>{feature.title}</h3>
