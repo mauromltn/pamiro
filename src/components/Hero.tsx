@@ -22,7 +22,7 @@ export default function Hero() {
 
         <div className='w-1/4'>
           <p className='mb-6 text-[17px]'>From perfectly grilled steaks to slow-roasted meats, we serve you the finest selection of meat dishes prepared with passion.</p>
-          <Button className='text-[var(--secondary)] text-[17px]'>View our Menu</Button>
+          <Button redirectTo='/menu' className='text-[var(--secondary)] text-[17px]'>View our Menu</Button>
         </div>
       </section>
     </main>

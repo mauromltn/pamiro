@@ -3,7 +3,7 @@ import footer from '../../../public/footer.webp'
 
 export default function Footer() {
    return (
-      <footer className='h-screen relative px-12 py-14 text-[var(--primary)]'>
+      <footer id='footer' className='h-screen relative px-12 py-14 text-[var(--primary)]'>
          <Image
             src={footer}
             alt="Footer Background"
@@ -41,9 +41,9 @@ export default function Footer() {
             <div className='flex justify-between items-center mt-12 border-b border-[var(--primary)] pb-6'>
                <h1 className="text-3xl font-boska font-bold text-[var(--primary)] tracking-wide">PAMIRÒ</h1>
                <ul className='flex gap-7'>
-                  <li>Menu</li>
-                  <li>About</li>
-                  <li>Contact</li>
+                    <li><a href="/menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
                </ul>
             </div>
             <div className='flex justify-between mt-6'>

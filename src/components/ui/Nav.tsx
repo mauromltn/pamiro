@@ -7,11 +7,11 @@ export default function Nav() {
 
          <nav className='flex justify-end items-center gap-7'>
             <ul className='flex gap-7 text-[var(--primary)] *:cursor-pointer *:hover:text-[var(--primary-hover)]'>
-               <li>Menu</li>
-               <li>About</li>
-               <li>Contact</li>
+                  <li><a href="/menu">Menu</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#footer">Contact</a></li>
             </ul>
-            <Button>Make a Reservation</Button>
+            <Button redirectTo='/reservation'>Make a Reservation</Button>
          </nav>
       </header>
    )

@@ -19,7 +19,7 @@ const features = [
 
 export default function About() {
    return (
-      <section className='h-screen grid grid-cols-3 gap-4 px-12 py-14'>
+      <section id='about' className='h-screen grid grid-cols-3 gap-4 px-12 py-14'>
          <h2 className='font-gambarino text-5xl'>Passion for Quality, Love for Meat</h2>
 
          <section className='col-span-2 content-end ml-30'>
