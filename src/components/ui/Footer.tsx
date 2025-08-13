@@ -39,15 +39,15 @@ export default function Footer() {
             </div>
 
             <div className='flex justify-between items-center mt-12 border-b border-[var(--primary)] pb-6'>
-               <h1 className="text-3xl font-boska font-bold text-[var(--primary)] tracking-wide">PAMIRÒ</h1>
-               <ul className='flex gap-7'>
+               <span className="text-3xl font-boska font-bold text-[var(--primary)] tracking-wide">PAMIRÒ</span>
+               <ul className='flex gap-7 *:hover:text-[var(--primary-hover)]'>
                     <li><a href="/menu">Menu</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#footer">Contact</a></li>
                </ul>
             </div>
             <div className='flex justify-between mt-6'>
-               <ul className='flex gap-4 *:underline'>
+               <ul className='flex gap-4 *:underline *:hover:text-[var(--primary-hover)]'>
                   <li><a href="/privacy-policy">Privacy Policy</a></li>
                   <li><a href="/terms-of-service">Terms of Service</a></li>
                </ul>

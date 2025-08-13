@@ -30,7 +30,7 @@ export default function Details() {
          <div className='absolute inset-0 bg-black/50 -z-10' />
 
          <h2 className='w-100 font-gambarino text-5xl text-[var(--primary)] mb-20'>Unmatched Quality and Experience</h2>
-         <section className='grid grid-cols-3 [&>:nth-child(2)]:mt-12 [&>:nth-child(3)]:mt-24'>
+         <section className='grid grid-cols-3 justify-items-center [&>:nth-child(2)]:mt-12 [&>:nth-child(3)]:mt-24'>
             {cardDetails.map((card, index) => (
                <div key={index} className='w-fit h-fit p-3 flex flex-col bg-[var(--primary)]'>
                   <h3 className='text-2xl my-2'>{card.title}</h3>
