@@ -17,13 +17,12 @@ export const metadata: Metadata = {
   description: "Born from Fire, Made for Taste",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
-    <html className="scroll-smooth" lang="en">
+    <html
+      className="scroll-smooth [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-black [&::-webkit-scrollbar-thumb]:bg-[var(--primary)]"
+      lang="en"
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

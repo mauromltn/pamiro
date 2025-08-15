@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import '../styles/boska.css';
+@import '../styles/gambarino.css';
 
 @theme {
   --font-boska: 'Boska-Variable', serif;
