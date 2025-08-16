@@ -1,4 +1,4 @@
 export interface MenuImagesProps {
    image: { active: boolean; index: number };
-   menuData: Array<{ src: string }>;
+   menuData: Array<{ src: string, name: string }>;
 }

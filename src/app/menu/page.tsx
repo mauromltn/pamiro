@@ -33,7 +33,7 @@ export default function Menu() {
             </ul>
          </header>
          <section className="grid grid-cols-2 gap-4 bg-[var(--primary)] text-[var(--secondary)] mt-20 p-4">
-            <section className="h-152 flex flex-col gap-2 border-2 border-[var(--secondary)] p-2 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-[var(--primary)] [&::-webkit-scrollbar-thumb]:bg-[var(--secondary)]">
+            <section className="h-152 flex flex-col border-2 border-[var(--secondary)] p-2 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-[var(--primary)] [&::-webkit-scrollbar-thumb]:bg-[var(--secondary)]">
                {filteredItems.map((item, index) => (
                   <div
                      key={index}
