@@ -50,9 +50,7 @@ export default function Menu() {
                ))}
             </section>
             <section>
-               <div className="relative h-152">
-                  <MenuImages image={image} menuData={filteredItems} />
-               </div>
+               <MenuImages image={image} menuData={filteredItems} />
             </section>
          </section>
       </main>

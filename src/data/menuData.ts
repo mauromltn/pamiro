@@ -2,241 +2,241 @@ export const menuData = [
    // Starter
    {
       name: "Bruschetta al Pomodoro",
-      description: "Pane tostato con pomodori freschi, basilico e olio extravergine.",
+      description: "Toasted bread with fresh tomatoes, basil and extra virgin olive oil.",
       price: "€12",
       category: "Starter",
       src: "/menu/bruschetta.webp"
    },
    {
       name: "Carpaccio di Manzo",
-      description: "Fettine sottili di manzo crudo con rucola, scaglie di parmigiano e limone.",
+      description: "Thin slices of raw beef with arugula, parmesan shavings and lemon.",
       price: "€18",
       category: "Starter",
-      src: "/menu/carpaccio.jpg"
+      src: "/menu/carpaccio.webp"
    },
    {
       name: "Tartare di Filetto",
-      description: "Filetto di manzo battuto al coltello con condimento classico.",
+      description: "Hand-chopped beef tenderloin with classic seasoning.",
       price: "€22",
       category: "Starter",
-      src: "/menu/tartare.jpg"
+      src: "/menu/tartare.webp"
    },
    {
       name: "Antipasto Misto",
-      description: "Selezione di salumi e formaggi nostrani con confetture.",
+      description: "Selection of local cured meats and cheeses with preserves.",
       price: "€16",
       category: "Starter",
-      src: "/menu/antipasto.jpg"
+      src: "/menu/antipasto.webp"
    },
    {
       name: "Vitello Tonnato",
-      description: "Vitello cotto a bassa temperatura con crema tonnata.",
+      description: "Low-temperature cooked veal with tuna cream sauce.",
       price: "€15",
       category: "Starter",
-      src: "/menu/vitello.jpg"
+      src: "/menu/vitello.webp"
    },
    {
       name: "Arancini Siciliani",
-      description: "Arancini fritti ripieni di ragù e mozzarella.",
+      description: "Fried rice balls stuffed with ragù and mozzarella.",
       price: "€10",
       category: "Starter",
-      src: "/menu/arancini.jpg"
+      src: "/menu/arancini.webp"
    },
 
    // Mains
    {
       name: "Tomahawk Steak",
-      description: "Costata gigante con osso lunga, grigliata alla perfezione.",
-      price: "€65",
+      description: "Giant bone-in ribeye, grilled to perfection.",
+      price: "€75",
       category: "Mains",
-      src: "/menu/tomahawk.jpg"
+      src: "/menu/tomahawk.webp"
    },
    {
       name: "Bistecca Fiorentina",
-      description: "Taglio classico toscano, servito al sangue con erbe aromatiche.",
+      description: "Classic Tuscan cut, served rare with aromatic herbs.",
       price: "€55",
       category: "Mains",
-      src: "/menu/fiorentina.jpg"
+      src: "/menu/fiorentina.webp"
    },
    {
-      name: "Costine BBQ",
-      description: "Costine di maiale affumicate lentamente e glassate con salsa BBQ.",
+      name: "BBQ Ribs",
+      description: "Slow-smoked pork ribs glazed with BBQ sauce.",
       price: "€28",
       category: "Mains",
-      src: "/menu/costine.jpg"
+      src: "/menu/costine.webp"
    },
    {
       name: "Tagliata di Manzo",
-      description: "Tagliata di manzo servita su letto di rucola e grana.",
+      description: "Sliced beef served on a bed of arugula and parmesan.",
       price: "€32",
       category: "Mains",
-      src: "/menu/tagliata.jpg"
+      src: "/menu/tagliata.webp"
    },
    {
-      name: "Branzino in Crosta",
-      description: "Branzino fresco cotto in crosta di sale con erbe mediterranee.",
+      name: "Sea Bass in Salt Crust",
+      description: "Fresh sea bass cooked in salt crust with Mediterranean herbs.",
       price: "€26",
       category: "Mains",
-      src: "/menu/branzino.jpg"
+      src: "/menu/branzino.webp"
    },
    {
-      name: "Agnello alle Erbe",
-      description: "Agnello nostrano cotto alle erbe aromatiche.",
+      name: "Herb-Crusted Lamb",
+      description: "Local lamb cooked with aromatic herbs.",
       price: "€35",
       category: "Mains",
-      src: "/menu/agnello.jpg"
+      src: "/menu/agnello.webp"
    },
 
    // Sides
    {
-      name: "Patate al Forno",
-      description: "Patate rustiche cotte con rosmarino e olio d'oliva.",
+      name: "Roasted Potatoes",
+      description: "Rustic potatoes cooked with rosemary and olive oil.",
       price: "€8",
       category: "Sides",
-      src: "/menu/patate.jpg"
+      src: "/menu/patate.webp"
    },
    {
-      name: "Verdure Grigliate",
-      description: "Selezione di verdure di stagione alla griglia.",
+      name: "Grilled Vegetables",
+      description: "Selection of seasonal vegetables on the grill.",
       price: "€10",
       category: "Sides",
-      src: "/menu/verdure.jpg"
+      src: "/menu/verdure.webp"
    },
    {
-      name: "Insalata Mista",
-      description: "Insalata fresca con pomodori, cetrioli e vinaigrette.",
+      name: "Mixed Salad",
+      description: "Fresh salad with tomatoes, cucumbers and vinaigrette.",
       price: "€7",
       category: "Sides",
-      src: "/menu/insalata.jpg"
+      src: "/menu/insalata.webp"
    },
    {
-      name: "Funghi Trifolati",
-      description: "Funghi porcini trifolati con aglio e prezzemolo.",
+      name: "Sautéed Mushrooms",
+      description: "Porcini mushrooms sautéed with garlic and parsley.",
       price: "€9",
       category: "Sides",
-      src: "/menu/funghi.jpg"
+      src: "/menu/funghi.webp"
    },
    {
-      name: "Spinaci al Burro",
-      description: "Spinaci freschi saltati in padella con burro e parmigiano.",
+      name: "Buttered Spinach",
+      description: "Fresh spinach sautéed with butter and parmesan.",
       price: "€6",
       category: "Sides",
-      src: "/menu/spinaci.jpg"
+      src: "/menu/spinaci.webp"
    },
    {
-      name: "Polenta Cremosa",
-      description: "Polenta mantecata con gorgonzola e noci.",
+      name: "Creamy Polenta",
+      description: "Polenta with gorgonzola and walnuts.",
       price: "€8",
       category: "Sides",
-      src: "/menu/polenta.jpg"
+      src: "/menu/polenta.webp"
    },
 
    // Desserts
    {
       name: "Tiramisù",
-      description: "Classico italiano con mascarpone, caffè e cacao.",
+      description: "Italian classic with mascarpone, coffee and cocoa.",
       price: "€9",
       category: "Desserts",
-      src: "/menu/tiramisu.jpg"
+      src: "/menu/tiramisu.webp"
    },
    {
       name: "Panna Cotta",
-      description: "Panna cotta alla vaniglia con coulis di frutti rossi.",
+      description: "Vanilla panna cotta with red berry coulis.",
       price: "€8",
       category: "Desserts",
-      src: "/menu/pannacotta.jpg"
+      src: "/menu/pannacotta.webp"
    },
    {
       name: "Cheesecake",
-      description: "Cheesecake cremosa con base di biscotto e topping ai frutti di bosco.",
+      description: "Creamy cheesecake with biscuit base and berry topping.",
       price: "€9",
       category: "Desserts",
-      src: "/menu/cheesecake.jpg"
+      src: "/menu/cheesecake.webp"
    },
    {
       name: "Cannoli Siciliani",
-      description: "Cannoli croccanti ripieni di ricotta dolce e gocce di cioccolato.",
+      description: "Crispy cannoli filled with sweet ricotta and chocolate chips.",
       price: "€8",
       category: "Desserts",
-      src: "/menu/cannoli.jpg"
+      src: "/menu/cannoli.webp"
    },
    {
-      name: "Gelato Artigianale",
-      description: "Gelato fatto in casa, gusti assortiti della stagione.",
+      name: "Artisan Gelato",
+      description: "Homemade gelato, seasonal flavors selection.",
       price: "€6",
       category: "Desserts",
-      src: "/menu/gelato.jpg"
+      src: "/menu/gelato.webp"
    },
    {
       name: "Profiteroles",
-      description: "Bignè ripieni di crema pasticcera e ricoperti di cioccolato.",
+      description: "Choux pastry filled with pastry cream and covered with chocolate.",
       price: "€10",
       category: "Desserts",
-      src: "/menu/profiteroles.jpg"
+      src: "/menu/profiteroles.webp"
    },
 
    // Beverages
    {
       name: "Chianti Classico",
-      description: "Vino rosso toscano DOCG, perfetto con le carni rosse.",
+      description: "Tuscan DOCG red wine, perfect with red meats.",
       price: "€38",
       category: "Beverages",
-      src: "/menu/chianti.jpg"
+      src: "/menu/chianti.webp"
    },
    {
       name: "Barolo DOCG",
-      description: "Vino rosso piemontese pregiato, invecchiato 3 anni.",
+      description: "Premium Piedmontese red wine, aged 3 years.",
       price: "€75",
       category: "Beverages",
-      src: "/menu/barolo.jpg"
+      src: "/menu/barolo.webp"
    },
    {
-      name: "Birra Artigianale IPA",
-      description: "Birra luppolata dal sapore intenso, perfetta con il BBQ.",
+      name: "Craft IPA Beer",
+      description: "Hoppy beer with intense flavor, perfect with BBQ.",
       price: "€7",
       category: "Beverages",
-      src: "/menu/ipa.jpg"
+      src: "/menu/ipa.webp"
    },
    {
       name: "Coca Cola",
-      description: "Coca Cola classica servita ghiacciata.",
+      description: "Classic Coca Cola served ice cold.",
       price: "€4",
       category: "Beverages",
-      src: "/menu/coca.jpg"
+      src: "/menu/coca.webp"
    },
    {
-      name: "Acqua Naturale",
-      description: "Acqua minerale naturale da sorgente montana.",
+      name: "Natural Water",
+      description: "Natural mineral water from mountain spring.",
       price: "€3",
       category: "Beverages",
-      src: "/menu/acqua.jpg"
+      src: "/menu/acqua.webp"
    },
    {
       name: "Espresso",
-      description: "Caffè espresso italiano, tostatura artigianale.",
+      description: "Italian espresso coffee, artisan roasted.",
       price: "€2.50",
       category: "Beverages",
-      src: "/menu/espresso.jpg"
+      src: "/menu/espresso.webp"
    },
    {
       name: "Prosecco di Valdobbiadene",
-      description: "Prosecco DOCG delle colline venete, ideale per aperitivo.",
+      description: "DOCG Prosecco from Veneto hills, ideal for aperitif.",
       price: "€28",
       category: "Beverages",
-      src: "/menu/prosecco.jpg"
+      src: "/menu/prosecco.webp"
    },
    {
       name: "Limoncello",
-      description: "Liquore di limoni della costiera amalfitana, servito ghiacciato.",
+      description: "Amalfi Coast lemon liqueur, served ice cold.",
       price: "€8",
       category: "Beverages",
-      src: "/menu/limoncello.jpg"
+      src: "/menu/limoncello.webp"
    },
    {
       name: "Grappa di Nebbiolo",
-      description: "Grappa invecchiata distillata da vinacce di Nebbiolo.",
+      description: "Aged grappa distilled from Nebbiolo grape pomace.",
       price: "€12",
       category: "Beverages",
-      src: "/menu/grappa.jpg"
+      src: "/menu/grappa.webp"
    },
 ];
