@@ -1,4 +1,3 @@
-import Footer from "@/components/ui/Footer";
 import Link from "next/link";
 import { MoveLeft } from "lucide-react";
 
@@ -100,7 +99,6 @@ export default function PrivacyPolicy() {
                </section>
             </section>
          </main>
-         <Footer />
       </>
    )
 }

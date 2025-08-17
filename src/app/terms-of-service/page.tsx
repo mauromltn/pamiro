@@ -1,4 +1,3 @@
-import Footer from "@/components/ui/Footer";
 import Link from "next/link";
 import { MoveLeft } from "lucide-react";
 
@@ -19,7 +18,7 @@ export default function TermsOfService() {
                   <div>
                      <h2 className="font-gambarino text-3xl mb-4">1. Introduction</h2>
                      <p className="text-[17px] leading-relaxed mb-4">
-                        These terms of service govern your use of Pamirò Restaurant's services, including dining, reservations, and our website.
+                        These terms of service govern your use of Pamirò Restaurant&apos;s services, including dining, reservations, and our website.
                      </p>
                      <p className="text-[17px] leading-relaxed">
                         By using our services, you agree to these terms. If you do not agree, please do not use our services.
@@ -71,7 +70,7 @@ export default function TermsOfService() {
                   <div>
                      <h2 className="font-gambarino text-3xl mb-4">6. Liability</h2>
                      <p className="text-[17px] leading-relaxed mb-4">
-                        Pamirò Restaurant's liability is limited to the cost of your meal. We are not responsible for:
+                        Pamirò Restaurant&apos;s liability is limited to the cost of your meal. We are not responsible for:
                      </p>
                      <ul className="list-disc list-inside space-y-2 text-[17px]">
                         <li>Personal belongings left on the premises</li>
@@ -106,7 +105,6 @@ export default function TermsOfService() {
                </section>
             </section>
          </main>
-         <Footer />
       </>
    )
 }

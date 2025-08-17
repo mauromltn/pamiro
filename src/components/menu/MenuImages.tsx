@@ -28,10 +28,10 @@ export default function MenuImages({ image, menuData }: MenuImagesProps) {
                </div>
             </>
          ) : (
-            <div className="flex items-center justify-center h-full bg-primary/50 text-secondary">
+            <div className="flex items-center justify-center h-full">
                <div className="text-center">
                   <Eye size={26} className="mx-auto mb-1 opacity-60" />
-                  <p className="text-xl font-boska font-medium">Discover our dishes</p>
+                  <span className="text-xl font-boska font-medium">Discover our dishes</span>
                   <p className="text-sm opacity-80">Hover to preview images</p>
                </div>
             </div>

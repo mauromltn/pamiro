@@ -52,11 +52,18 @@ export const menuData = [
       src: "/menu/tomahawk.webp"
    },
    {
-      name: "Bistecca Fiorentina",
-      description: "Classic Tuscan cut, served rare with aromatic herbs.",
-      price: "€55",
+      name: "Wagyu Ribeye Steak",
+      description: "Premium Japanese Wagyu ribeye, dry-aged 28 days, grilled to perfection.",
+      price: "€95",
       category: "Mains",
-      src: "/menu/fiorentina.webp"
+      src: "/menu/wagyu.webp"
+   },
+   {
+      name: "Dry-Aged Porterhouse",
+      description: "48-day dry-aged porterhouse steak, charcoal-grilled with bone marrow butter.",
+      price: "€78",
+      category: "Mains",
+      src: "/menu/porterhouse.webp"
    },
    {
       name: "BBQ Ribs",
@@ -66,18 +73,11 @@ export const menuData = [
       src: "/menu/costine.webp"
    },
    {
-      name: "Tagliata di Manzo",
-      description: "Sliced beef served on a bed of arugula and parmesan.",
-      price: "€32",
+      name: "Bistecca Fiorentina",
+      description: "Classic Tuscan cut, served rare with aromatic herbs.",
+      price: "€55",
       category: "Mains",
-      src: "/menu/tagliata.webp"
-   },
-   {
-      name: "Sea Bass in Salt Crust",
-      description: "Fresh sea bass cooked in salt crust with Mediterranean herbs.",
-      price: "€26",
-      category: "Mains",
-      src: "/menu/branzino.webp"
+      src: "/menu/fiorentina.webp"
    },
    {
       name: "Herb-Crusted Lamb",
@@ -104,7 +104,7 @@ export const menuData = [
    },
    {
       name: "Mixed Salad",
-      description: "Fresh salad with tomatoes, cucumbers and vinaigrette.",
+      description: "Fresh salad with tomatoes, avocado, carrots and mixed greens.",
       price: "€7",
       category: "Sides",
       src: "/menu/insalata.webp"
@@ -133,6 +133,20 @@ export const menuData = [
 
    // Desserts
    {
+      name: "Chocolate Lava Cake",
+      description: "Warm chocolate cake with molten center, served with vanilla ice cream.",
+      price: "€14",
+      category: "Desserts",
+      src: "/menu/lava-cake.webp"
+   },
+   {
+      name: "Crème Brûlée",
+      description: "Classic vanilla custard with caramelized sugar crust.",
+      price: "€12",
+      category: "Desserts",
+      src: "/menu/creme-brulee.webp"
+   },
+   {
       name: "Tiramisù",
       description: "Italian classic with mascarpone, coffee and cocoa.",
       price: "€9",
@@ -144,7 +158,7 @@ export const menuData = [
       description: "Vanilla panna cotta with red berry coulis.",
       price: "€8",
       category: "Desserts",
-      src: "/menu/pannacotta.webp"
+      src: "/menu/panna-cotta.webp"
    },
    {
       name: "Cheesecake",
@@ -154,25 +168,11 @@ export const menuData = [
       src: "/menu/cheesecake.webp"
    },
    {
-      name: "Cannoli Siciliani",
-      description: "Crispy cannoli filled with sweet ricotta and chocolate chips.",
-      price: "€8",
+      name: "Grilled Peach & Mascarpone",
+      description: "Charcoal-grilled peaches with mascarpone cream and honey drizzle.",
+      price: "€12",
       category: "Desserts",
-      src: "/menu/cannoli.webp"
-   },
-   {
-      name: "Artisan Gelato",
-      description: "Homemade gelato, seasonal flavors selection.",
-      price: "€6",
-      category: "Desserts",
-      src: "/menu/gelato.webp"
-   },
-   {
-      name: "Profiteroles",
-      description: "Choux pastry filled with pastry cream and covered with chocolate.",
-      price: "€10",
-      category: "Desserts",
-      src: "/menu/profiteroles.webp"
+      src: "/menu/grilled-peach.webp"
    },
 
    // Beverages
@@ -186,37 +186,9 @@ export const menuData = [
    {
       name: "Barolo DOCG",
       description: "Premium Piedmontese red wine, aged 3 years.",
-      price: "€75",
+      price: "€63",
       category: "Beverages",
       src: "/menu/barolo.webp"
-   },
-   {
-      name: "Craft IPA Beer",
-      description: "Hoppy beer with intense flavor, perfect with BBQ.",
-      price: "€7",
-      category: "Beverages",
-      src: "/menu/ipa.webp"
-   },
-   {
-      name: "Coca Cola",
-      description: "Classic Coca Cola served ice cold.",
-      price: "€4",
-      category: "Beverages",
-      src: "/menu/coca.webp"
-   },
-   {
-      name: "Natural Water",
-      description: "Natural mineral water from mountain spring.",
-      price: "€3",
-      category: "Beverages",
-      src: "/menu/acqua.webp"
-   },
-   {
-      name: "Espresso",
-      description: "Italian espresso coffee, artisan roasted.",
-      price: "€2.50",
-      category: "Beverages",
-      src: "/menu/espresso.webp"
    },
    {
       name: "Prosecco di Valdobbiadene",
@@ -226,17 +198,32 @@ export const menuData = [
       src: "/menu/prosecco.webp"
    },
    {
-      name: "Limoncello",
-      description: "Amalfi Coast lemon liqueur, served ice cold.",
-      price: "€8",
-      category: "Beverages",
-      src: "/menu/limoncello.webp"
-   },
-   {
       name: "Grappa di Nebbiolo",
       description: "Aged grappa distilled from Nebbiolo grape pomace.",
-      price: "€12",
+      price: "€43",
       category: "Beverages",
       src: "/menu/grappa.webp"
+   },
+
+   {
+      name: "Coca Cola",
+      description: "Classic Coca Cola served ice cold.",
+      price: "€4",
+      category: "Beverages",
+      src: "/menu/coca-cola.webp"
+   },
+   {
+      name: "Natural Water",
+      description: "Natural mineral water from mountain spring.",
+      price: "€8",
+      category: "Beverages",
+      src: "/menu/water.webp"
+   },
+   {
+      name: "Espresso",
+      description: "Italian espresso coffee, artisan roasted.",
+      price: "€2.50",
+      category: "Beverages",
+      src: "/menu/espresso.webp"
    },
 ];
