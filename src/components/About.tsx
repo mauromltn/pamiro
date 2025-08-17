@@ -37,7 +37,7 @@ export default function About() {
                            src={feature.image}
                            alt={feature.alt}
                            fill
-                           objectFit='cover'
+                           className='object-cover'
                         />
                      </div>
                      <p>{feature.description}</p>

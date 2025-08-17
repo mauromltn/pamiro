@@ -26,7 +26,7 @@ const cardDetails = [
 export default function Details() {
    return (
       <section className='relative h-screen px-12 py-14'>
-         <Image src={background} alt="background image of restaurant" fill objectFit='cover' className='-z-10' />
+         <Image src={background} alt="background image of restaurant" fill className='-z-10 object-cover' />
          <div className='absolute inset-0 bg-black/50 -z-10' />
 
          <h2 className='w-100 font-gambarino text-5xl text-[var(--primary)] mb-20'>Unmatched Quality and Experience</h2>
@@ -36,7 +36,7 @@ export default function Details() {
                   <h3 className='text-2xl my-2'>{card.title}</h3>
                   <p className='w-90 my-3 '>{card.description}</p>
                   <div className='w-90 h-90 relative'>
-                     <Image src={card.image} alt={card.title} fill objectFit='cover' />
+                     <Image src={card.image} alt={card.title} fill className='object-cover' />
                   </div>
                </div>
             ))}

@@ -21,7 +21,7 @@ export default function MenuImages({ image, menuData }: MenuImagesProps) {
                            src={item.src}
                            alt="dish image"
                            fill
-                           objectFit="cover"
+                           className="object-cover"
                         />
                      </div>
                   ))}

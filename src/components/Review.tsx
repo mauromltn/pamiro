@@ -35,7 +35,7 @@ export default function Review() {
             {Guests.map((guest, index) => (
                <div key={index} className='w-90 text'>
                   <div className='w-40 h-40 relative'>
-                     <Image src={guest.image} alt={guest.name} fill objectFit='cover' />
+                     <Image src={guest.image} alt={guest.name} fill className='object-cover' />
                   </div>
                   <h3 className='font-gambarino text-2xl mt-4 mb-2'>{guest.review}</h3>
                   <p>{guest.name}</p>

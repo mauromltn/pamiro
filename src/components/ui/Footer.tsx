@@ -8,8 +8,7 @@ export default function Footer() {
             src={footer}
             alt="Footer Background"
             fill
-            objectFit="cover"
-            className='-z-10'
+            className='-z-10 object-cover'
          />
          <div className='absolute inset-0 bg-black/50 -z-10' />
 
