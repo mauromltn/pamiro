@@ -29,7 +29,7 @@ export default function Details() {
          <Image src={background} alt="background image of restaurant" fill className='-z-10 object-cover' />
          <div className='absolute inset-0 bg-black/50 -z-10' />
 
-         <h2 className='w-100 font-gambarino text-4xl sm:text-5xl text-[var(--primary)] px-6 sm:px-0 mb-16 sm:mb-20'>Unmatched Quality and Experience</h2>
+         <h2 className='sm:w-100 font-gambarino text-4xl sm:text-5xl text-[var(--primary)] px-6 sm:px-0 mb-16 sm:mb-20'>Unmatched Quality and Experience</h2>
          <section className='flex gap-4 px-6 sm:px-0 sm:grid sm:grid-cols-3 sm:justify-items-center overflow-scroll sm:overflow-auto sm:[&>:nth-child(2)]:mt-12 sm:[&>:nth-child(3)]:mt-24'>
             {cardDetails.map((card, index) => (
                <div key={index} className='w-fit h-fit p-3 flex flex-col bg-[var(--primary)]'>
