@@ -25,17 +25,17 @@ const cardDetails = [
 
 export default function Details() {
    return (
-      <section className='relative h-screen px-12 py-14'>
+      <section className='relative h-screen sm:px-12 py-14'>
          <Image src={background} alt="background image of restaurant" fill className='-z-10 object-cover' />
          <div className='absolute inset-0 bg-black/50 -z-10' />
 
-         <h2 className='w-100 font-gambarino text-5xl text-[var(--primary)] mb-20'>Unmatched Quality and Experience</h2>
-         <section className='grid grid-cols-3 justify-items-center [&>:nth-child(2)]:mt-12 [&>:nth-child(3)]:mt-24'>
+         <h2 className='w-100 font-gambarino text-4xl sm:text-5xl text-[var(--primary)] px-6 sm:px-0 mb-16 sm:mb-20'>Unmatched Quality and Experience</h2>
+         <section className='flex gap-4 px-6 sm:px-0 sm:grid sm:grid-cols-3 sm:justify-items-center overflow-scroll sm:overflow-auto sm:[&>:nth-child(2)]:mt-12 sm:[&>:nth-child(3)]:mt-24'>
             {cardDetails.map((card, index) => (
                <div key={index} className='w-fit h-fit p-3 flex flex-col bg-[var(--primary)]'>
                   <h3 className='text-2xl my-2'>{card.title}</h3>
-                  <p className='w-90 my-3 '>{card.description}</p>
-                  <div className='w-90 h-90 relative'>
+                  <p className='w-60 sm:w-90 text-[15px] sm:text-base my-3'>{card.description}</p>
+                  <div className='w-60 h-60 sm:w-90 sm:h-90 relative'>
                      <Image src={card.image} alt={card.title} fill className='object-cover' />
                   </div>
                </div>
