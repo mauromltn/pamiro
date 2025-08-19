@@ -35,10 +35,10 @@ export default function NavMobile() {
                   </button>
                   <nav className='font-gambarino text-4xl h-full flex justify-center items-center'>
                      <ul className='text-[var(--primary)] space-y-6'>
-                        <li><a href="/menu">Menu</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#footer">Contact</a></li>
-                        <li><a href="/reservation">Reservation</a></li>
+                        <li><a href="/menu" onClick={() => setIsOpen(false)}>Menu</a></li>
+                        <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
+                        <li><a href="#footer" onClick={() => setIsOpen(false)}>Contact</a></li>
+                        <li><a href="/reservation" onClick={() => setIsOpen(false)}>Reservation</a></li>
                      </ul>
                   </nav>
                </motion.div>
