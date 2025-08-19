@@ -29,16 +29,18 @@ const Guests = [
 
 export default function Review() {
    return (
-      <section className='h-screen px-12 py-14'>
-         <h2 className='font-gambarino text-5xl mb-20'>What Our Guests Are Saying</h2>
-         <section className='grid grid-cols-2 space-y-20 [&>:nth-child(3)]:justify-self-end [&>:nth-child(4)]:justify-self-end'>
+      <section className='h-screen px-6 sm:px-12 py-14'>
+         <h2 className='font-gambarino text-4xl sm:text-5xl mb-16 sm:mb-20'>What Our Guests Are Saying</h2>
+         <section className='grid sm:grid-cols-2 space-y-8 sm:space-y-20 sm:[&>:nth-child(3)]:justify-self-end sm:[&>:nth-child(4)]:justify-self-end'>
             {Guests.map((guest, index) => (
-               <div key={index} className='w-90 text'>
-                  <div className='w-40 h-40 relative'>
+               <div key={index} className='flex gap-4 items-start sm:block sm:w-90'>
+                  <div className='w-15 sm:w-40 h-15 sm:h-40 relative shrink-0'>
                      <Image src={guest.image} alt={guest.name} fill className='object-cover' />
                   </div>
-                  <h3 className='font-gambarino text-2xl mt-4 mb-2'>{guest.review}</h3>
-                  <p>{guest.name}</p>
+                  <div className='shrink'>
+                     <h3 className='font-gambarino text-lg sm:text-2xl sm:mt-4 mb-2'>{guest.review}</h3>
+                     <p className='text-xs sm:text-sm italic'>{guest.name}</p>
+                  </div>
                </div>
             ))}
          </section>
