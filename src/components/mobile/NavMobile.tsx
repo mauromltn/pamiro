@@ -26,7 +26,7 @@ export default function NavMobile() {
                      y: "-100%",
                      transition: { duration: 0.2, ease: "backOut" }
                   }}
-                  className='absolute inset-0 bg-[var(--secondary)]'
+                  className='fixed inset-0 bg-[var(--secondary)] z-50'
                >
                   <button onClick={() => setIsOpen(false)} className='absolute top-5 right-5 z-20'>
                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#F8EDE0" fill="none">
