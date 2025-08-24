@@ -32,11 +32,11 @@ export default function Menu() {
          </Link>
          <header className="flex flex-col sm:flex-row space-y-12 sm:space-y-0 justify-between sm:items-center">
             <h1 className="font-gambarino text-5xl">A Menu for Meat Lovers</h1>
-            <div className="flex flex-col sm:items-end">
-               <ul ref={scrollRef} className="flex items-center py-4 gap-4 sm:gap-10 h-full overflow-x-auto scrollbar-hide">
+            <div className="flex flex-col">
+               <ul ref={scrollRef} className="flex py-4 gap-4 sm:gap-10 h-full overflow-x-auto scrollbar-hide">
                   {categories.map((category, index) => (
                      <li key={index} className="flex-shrink-0">
-                        <a onClick={() => setActiveTab(category)} className={`px-4 py-2 cursor-pointer whitespace-nowrap ${activeTab === category ? 'bg-[var(--primary)] text-[var(--secondary)]' : ''}`}>
+                        <a onClick={() => setActiveTab(category)} className={`px-4 py-2 cursor-pointer ${activeTab === category ? 'bg-[var(--primary)] text-[var(--secondary)]' : ''}`}>
                            {category}
                         </a>
                      </li>
@@ -53,7 +53,7 @@ export default function Menu() {
             </div>
          </header>
          <section className="grid sm:grid-cols-2 gap-4 bg-[var(--primary)] text-[var(--secondary)] mt-20 p-4">
-            <section className="h-152 flex flex-col border-2 border-[var(--secondary)] gap-4 p-2 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-[var(--primary)] [&::-webkit-scrollbar-thumb]:bg-[var(--secondary)]">
+            <section className="h-152 flex flex-col border-2 border-[var(--secondary)] p-2 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-[var(--primary)] [&::-webkit-scrollbar-thumb]:bg-[var(--secondary)]">
                {filteredItems.map((item, index) => (
                   <div
                      key={index}

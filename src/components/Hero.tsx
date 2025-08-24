@@ -18,7 +18,7 @@ export default function Hero() {
         <h1 className='sm:w-160 text-4xl mb-10 sm:mb-0 sm:text-6xl font-gambarino leading-snug'>Indulge in Premium Cuts & Authentic Flavors</h1>
         <div className='sm:w-1/4'>
           <p className='mb-4 sm:mb-6 text-[15px] sm:text-[17px]'>From perfectly grilled steaks to slow-roasted meats, we serve you the finest selection of meat dishes prepared with passion.</p>
-          <Button redirectTo='/menu' className='text-[var(--secondary)] text-[15px] sm:text-[17px]'>View our Menu</Button>
+          <Button redirectTo='/menu' className='text-[15px] sm:text-[17px]'>View our Menu</Button>
         </div>
       </section>
     </main>
