@@ -11,7 +11,7 @@ export default function NotFound() {
                Page Not Found
             </h2>
             <p className='text-[15px] sm:text-[17px] mb-8 opacity-80 leading-relaxed'>
-               Oops! It seems like you've wandered off the menu. The page you're looking for doesn't exist or has been moved.
+               Oops! It seems like you&apos;ve wandered off the menu. The page you&apos;re looking for doesn&apos;t exist or has been moved.
             </p>
 
             <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
